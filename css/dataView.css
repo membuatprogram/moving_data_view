@@ -1,0 +1,54 @@
+.phones {
+    background-color: #15428B;
+    /*text-shadow: #fff 0 1px 0;*/
+    position: relative;
+    display: block;
+    height: auto;
+}
+
+.phones div.phone img {
+    margin-bottom: 1px;
+}
+
+.phones div.phone {
+    float: left;
+    padding: 8px 17px;
+    margin: 5px;
+/*    margin: 10px 0 0 25px;*/
+    text-align: center;
+    line-height: 14px;
+    color: #333;
+    font-size: 10px;
+    font-family: "Helvetica Neue",sans-serif;
+    height: 100px;
+    width: 100px;
+    overflow: hidden;
+    border-top: 1px solid transparent;
+    cursor: pointer;
+}
+
+.x-ie6 #phones div.phone,
+.x-ie7 #phones div.phone,
+.x-ie8 #phones div.phone {
+    border-top: none;
+    padding: 3px 2px;
+    margin: 2px;
+}
+
+.phones div.phone-hover {
+    background-color: rgba(238,238,238,0.3);
+}
+
+.phones .x-item-selected {
+    background-color: rgba(238,238,238,0.6) !important;
+}
+
+.phones div.phone strong {
+    font-weight: bold;
+    color: #fff;
+    display: block;
+}
+
+.phones div.phone span {
+    color: #000;
+}
